@@ -88,8 +88,8 @@ function gamePlay()
     {
         moveLines();
         moveEnemy(car);
-        if(keys.ArrowUp && player.y > road.top + 70){player.y -= player.speed;} //kiuki upar jaate time, top ki value km krni hai
-        if(keys.ArrowDown && player.y < road.bottom - 85){ player.y += player.speed;} //neeche aate time, top ki vale ko increase krna hai
+        if(keys.ArrowUp && player.y > road.top + 70){player.y -= player.speed;}
+        if(keys.ArrowDown && player.y < road.bottom - 85){ player.y += player.speed;} 
         if(keys.ArrowLeft && player.x > 0){player.x -= player.speed;}
         if(keys.ArrowRight && player.x < road.width-50){player.x += player.speed;}
 
